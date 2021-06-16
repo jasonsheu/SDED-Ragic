@@ -61,18 +61,4 @@ class RagicTools():
         return self.table_id
     def get_group(self):
         return self.group_name
-entry = {
-            '1000114': (None, '10'),
-            '1000115': (None, 'sent'),
-            '1000116': (None, 'from'),
-            '1000117': (None, 'terminal')
-        }
-updated = {
-            '1000114': (None, '9'),
-            '1000115': (None, 'updated'),
-            '1000116': (None, 'from'),
-            '1000117': (None, 'terminal')
-        }
-test = RagicTools(1, 'test2', config.api)
-print(test.update_entry(9, updated))
 
